@@ -16,7 +16,7 @@ import {applyNewValueToRenamable, isRenamable, isValueEmpty} from './common/util
 
 @Component({
   selector: 'tree',
-  styles: [require('./branchy.component.css')],
+  // styles: [require('./branchy.component.css')],
   template: require('./branchy.component.html'),
   directives: [NodeEditableDirective, TreeComponent, NodeMenuComponent, NodeDraggableDirective, CORE_DIRECTIVES],
 })
